@@ -9,11 +9,21 @@ using System.Windows.Forms;
 
 namespace wpf_1
 {
-	public partial class Form1 : Form 
+	public partial class search_form : Form 
 	{
-		public Form1()
+		public search_form()
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
