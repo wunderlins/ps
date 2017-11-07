@@ -27,18 +27,18 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.search_txt = new System.Windows.Forms.TextBox();
             this.name_label = new System.Windows.Forms.Label();
             this.cancel_btn = new System.Windows.Forms.Button();
             this.save_btn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // search_txt
             // 
-            this.textBox1.Location = new System.Drawing.Point(86, 16);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(186, 20);
-            this.textBox1.TabIndex = 0;
+            this.search_txt.Location = new System.Drawing.Point(86, 16);
+            this.search_txt.Name = "search_txt";
+            this.search_txt.Size = new System.Drawing.Size(186, 20);
+            this.search_txt.TabIndex = 0;
             // 
             // name_label
             // 
@@ -77,7 +77,7 @@
             this.Controls.Add(this.save_btn);
             this.Controls.Add(this.cancel_btn);
             this.Controls.Add(this.name_label);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.search_txt);
             this.Name = "search_form";
             this.Text = "Search";
             this.ResumeLayout(false);
@@ -87,7 +87,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox search_txt;
         private System.Windows.Forms.Label name_label;
         private System.Windows.Forms.Button cancel_btn;
         private System.Windows.Forms.Button save_btn;
