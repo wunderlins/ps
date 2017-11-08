@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="Window" Height="114.037" Width="263.217">
+    <Grid Height="83" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="lbl_name" Content="Name" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_name" HorizontalAlignment="Left" Height="23" Margin="85,14,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="160"/>
+        <Button x:Name="btn_cancel" Content="Cancel" HorizontalAlignment="Left" Margin="85,53,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_save" Content="Save" HorizontalAlignment="Left" Margin="170,53,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>
