@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_2"
         mc:Ignorable="d"
-        Title="Window" Height="114.037" Width="263.217">
+        Title="Window" Height="126.229" Width="280.43">
     <Grid Height="83" VerticalAlignment="Top">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
